@@ -26,8 +26,8 @@ def scrape_job_page(url):
             
             job_data.append({
                 'title': title,
-                'company': company,
-                'location': location,
+                'jumia': company,
+                'kenya': location,
                 'date_posted': date_posted,
                 'link': link
             })
